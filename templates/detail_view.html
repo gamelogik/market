@@ -3,5 +3,6 @@
 {% block content %}
     <h1>Product: {{object.title}}</h1>
 
-    {{ block.super }}
+    <p>{{  object.description }}</p>
+    <p>{{ object.price }}</p>
 {% endblock %}
